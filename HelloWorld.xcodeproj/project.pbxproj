@@ -14,6 +14,7 @@
 		183B1C90232D1FD60029BD72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183B1C8E232D1FD60029BD72 /* LaunchScreen.storyboard */; };
 		183B1C9B232D1FD60029BD72 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B1C9A232D1FD60029BD72 /* HelloWorldTests.swift */; };
 		183B1CA6232D1FD70029BD72 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B1CA5232D1FD70029BD72 /* HelloWorldUITests.swift */; };
+		18E3C417232D3C8E00B582D1 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E3C416232D3C8E00B582D1 /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		183B1CA1232D1FD60029BD72 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183B1CA5232D1FD70029BD72 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		183B1CA7232D1FD70029BD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3C416232D3C8E00B582D1 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				183B1C87232D1FD60029BD72 /* ViewController.swift */,
 				183B1C89232D1FD60029BD72 /* Main.storyboard */,
 				183B1C8C232D1FD60029BD72 /* Assets.xcassets */,
+				18E3C416232D3C8E00B582D1 /* image.jpg */,
 				183B1C8E232D1FD60029BD72 /* LaunchScreen.storyboard */,
 				183B1C91232D1FD60029BD72 /* Info.plist */,
 			);
@@ -235,6 +238,7 @@
 				183B1C90232D1FD60029BD72 /* LaunchScreen.storyboard in Resources */,
 				183B1C8D232D1FD60029BD72 /* Assets.xcassets in Resources */,
 				183B1C8B232D1FD60029BD72 /* Main.storyboard in Resources */,
+				18E3C417232D3C8E00B582D1 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
