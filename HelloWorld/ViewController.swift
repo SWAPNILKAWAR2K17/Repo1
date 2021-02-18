@@ -23,7 +23,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         print("viewDidLoad")
         
         
-        
+        print("This is the change 1")
         
         // top right
         addSubView(frame: CGRect(x: 10, y: 10, width: 100, height: 100), position: "top_left")
@@ -63,9 +63,15 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         
         mView.layer.add(animation, forKey: "position")
         
+        print("This is the change 2")
+
+        
     }
     
     func addSubView(frame : CGRect,position : String){
+        
+        print("This is the change 3")
+
         let mView = UIView()
         mView.frame = frame
         mView.backgroundColor = UIColor.purple.withAlphaComponent(8)
@@ -112,6 +118,8 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
 extension String{
     
     func isEqual(string:String) -> Bool{
+        print("This is the change 4")
+
         return self == string
     }
 }
